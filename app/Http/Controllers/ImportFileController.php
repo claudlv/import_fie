@@ -9,7 +9,6 @@ class ImportFileController extends Controller
 {
     private $fileImport;
 
-
     public function __construct(BrokenFileImport $fileImport)
     {
         $this->fileImport = $fileImport;
